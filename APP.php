@@ -1,12 +1,33 @@
 <?php
 
-
+	//check if there is variable in the URL
+	if isset ($_GET["message"])){
+		
+		//only if there is message in the URL
+		echo "there is message";
+		
+		// if it is empty
+		if (empty ($_GET["message"])){
+			//it is empty
+			echo "Please enter the message!";
+		}else{
+			//It is not empty
+			echo "Message: ".$_GET["message"]."<br>";
+		}
+	}else{
+		//echo "There is no such thing as message";
+	}
+	
+	}
+	
+	
+	
 	//Getting the message from the address
 	//if there is $name= .. then $_GET ["name"]
 	$my_message = $_GET ["message"];
 	$to = $_GET ["to"];
 	$urgency = $_GET ["urgency"];
-	echo "My message is " .$my_message. " and it is to " .$to. "IT IS URGENT!!!" .$urgency;
+	echo "My message is " .$my_message. " and it is to " .$to;
 	
 	
 ?>
