@@ -15,6 +15,9 @@
 	<label for="message">Message* <label><br>
 	<input type="text" name="message"><br>
 	<input type="submit" value="save to DB">
+	<label for="to">To* <label><br>
+	<input type="text" name="is for"><br>
+	
 	
 
 
