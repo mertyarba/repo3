@@ -16,10 +16,13 @@
 <form method="get">
 	<label for="to">To* <label><br>
 	<input type="text" name="to"><br>
+	
 	<label for="message">Message* <label><br>
 	<input type="text" name="message"><br>
+	
 	<label for="urgency">Urgency* <label><br>
 	<input type="text" name="Urgency"><br>
+	
 	<input type="submit" value="save to DB">
 	
 	
