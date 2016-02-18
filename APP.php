@@ -5,7 +5,7 @@
 	//if there is $name= .. then $_GET ["name"]
 	$my_message = $_GET ["message"];
 	$to = $_GET ["to"];
-	echo "My message " .$my_message. " and it is to ".$to;
+	echo "My message is " .$my_message. " and it is to ".$to;
 	
 	
 ?>
