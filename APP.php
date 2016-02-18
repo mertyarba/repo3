@@ -6,7 +6,7 @@
 	$my_message = $_GET ["message"];
 	$to = $_GET ["to"];
 	$urgency = $_GET ["urgency"];
-	echo "My message is " .$my_message. " and it is to ".$to. "IT IS URGENT!!!".$urgency;
+	echo "My message is " .$my_message. " and it is to " .$to. "IT IS URGENT!!!" .$urgency;
 	
 	
 ?>
