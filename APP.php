@@ -1,5 +1,16 @@
 <?php
 
+	//*****************
+	//TO validation
+	//*****************
+	if (isset($_GET["to"])){//if there is "?to=" in the message
+		if (empty($_GET["to"])){//if it is empty
+		echo "Please enter recipient! <br>";//yes it is empty
+		}else{
+			echo "To: ".$_GET["to"]."<br>";//no it is not empty
+		}
+	}
+	
 	//check if there is variable in the URL
 	if (isset ($_GET["message"])){
 		
@@ -17,7 +28,6 @@
 	}else{
 		//echo "There is no such thing as message";
 	}
-	
 	
 	
 	
