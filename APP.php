@@ -1,8 +1,11 @@
 <?php
 
 
-
-
+	//Getting the message from the address
+	//if there is $name= .. then $_GET ["name"]
+	$my_message = $_GET ["message"]
+	
+	echo "My message is " .$my_message;
 
 ?>
 
