@@ -4,9 +4,10 @@
 	//Getting the message from the address
 	//if there is $name= .. then $_GET ["name"]
 	$my_message = $_GET ["message"];
-	echo "the message " .$my_message;
 	$to = $_GET ["to"];
-	echo " is from " .$to;
+	echo "My message " .$my_message. " and is to ".$to;
+	
+	
 ?>
 
 <h2> First Application </h2>
