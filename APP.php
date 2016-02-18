@@ -1,7 +1,7 @@
 <?php
 
 	//check if there is variable in the URL
-	if isset ($_GET["message"])){
+	if (isset ($_GET["message"])){
 		
 		//only if there is message in the URL
 		echo "there is message";
